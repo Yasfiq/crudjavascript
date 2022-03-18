@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+}
+
+.judul {
+    font-size: 60px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.p-judul {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.content {
+    width: 50%;
+    margin: auto;
+}
+
+.form-tambah {
+    width: 86.65%;
+}
+
+.btn-tambah {
+    margin: 0 0 0 10px;
+}
+
+#tabel {
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 450px) {
+    .content {
+        width: 80%;
+    }
+
+    .form-tambah {
+        width: 77%;
+    }
+
+    #tabel {
+        width: 100%;
+        overflow: hidden;
+    }
+}
